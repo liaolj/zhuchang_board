@@ -1,0 +1,14 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./index.html', './src/**/*.{vue,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#38bdf8',
+        warning: '#fbbf24',
+        danger: '#f87171',
+      },
+    },
+  },
+  plugins: [],
+};
