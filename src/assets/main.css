@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', 'HarmonyOS Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, rgba(47, 84, 235, 0.18), transparent 50%), #0b1e3c;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+}
