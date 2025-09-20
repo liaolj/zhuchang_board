@@ -1,0 +1,32 @@
+{
+  "modules": {
+    "overview": true,
+    "production": true,
+    "environment": true,
+    "feeding": true,
+    "equipment": true,
+    "alerts": true,
+    "zones": true
+  },
+  "carousel": {
+    "enabled": true,
+    "interval": 20000,
+    "order": [
+      "overview",
+      "production",
+      "environment",
+      "feeding",
+      "equipment",
+      "alerts",
+      "zones"
+    ]
+  },
+  "thresholds": {
+    "temperature": { "min": 18, "max": 28 },
+    "humidity": { "min": 50, "max": 75 },
+    "ammonia": { "max": 15 },
+    "co2": { "max": 2000 },
+    "fcr": { "target": [2.3, 2.8] },
+    "adg": { "target": [0.65, 0.8] }
+  }
+}
